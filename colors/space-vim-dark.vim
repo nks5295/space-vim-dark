@@ -80,7 +80,7 @@ endfunction
 
 let s:n_bg = 235
 
-call s:hi('Normal' , 249 , s:n_bg , 'None' , 'None' )
+call s:hi('Normal' , 249 , s:n_bg-s:n_bg , 'None' , 'None' )
 hi Normal       guibg=#292b2e
 
 call s:hi('Cursor' , 88 , 214 , 'bold' , 'bold')
